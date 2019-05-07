@@ -9,7 +9,7 @@ parameter-server:
 worker:
   container: "tensorflow/tensorflow:1.13.1-gpu-py3"
   command: "python mnist.py && ls -Ral /artifacts"
-  machine-type: "K80"
+  machine-type: "G1"
   count: 2
 model:
   type: Tensorflow
