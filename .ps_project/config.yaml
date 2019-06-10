@@ -19,7 +19,7 @@ checks:
     target: 0.0..1.0
     aggregate: max
   tensorflow:accuracy:
-    target: 0.90..1.000
+    target: 0.85..1.000
     aggregate: median
   defaults:
     precision: 3
